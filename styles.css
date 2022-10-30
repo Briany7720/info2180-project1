@@ -9,3 +9,103 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header{
+    display:grid;
+    background-color: white;
+    font-size: 18px;
+}
+
+header>div>h1{
+    float: left;
+    font-size: 18px;
+
+}
+header>div>nav>ul>li{
+    float: right ;
+    list-style: none ;
+    text-indent: 0.2in;
+}
+header>div>nav>ul>li>a>{
+    color: #6b7280;
+}
+header>div>nav>ul>li>a>:hover{
+    color:#5A67D8;
+}
+.overview-hero{
+   background-color: #E2E8F0; 
+   padding: 50px 50px 50px 50px;
+   margin-left: 75px;
+   margin-right: 75px;
+}
+.overview-hero>div{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 40%;
+    align-content: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 25px;
+}
+.overview-hero img{
+    padding-right: 50px;
+    width: 150px;
+    height: 150px;
+}
+.learn-about>div>h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    grid-template-rows: auto;
+    margin:20px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+.card{
+    padding-left: 20px;
+    padding right: 20px;
+    border-color:#E2E8F0;
+    border-radius: 5px;
+    border-style: solid;
+    box-shadow: 0 4px rgba(224,230,240,1); 
+}
+.card>img{
+    text-align: center;
+    height: 240px;
+    width: 270px;;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.card-body>h3{
+    font-size: 21px;
+    color: #48BB78;
+}
+.testing{
+    display: grid;
+    background-color: #4a5568;
+    color: white;
+    padding-top: 50px;
+    padding-bottom:  50px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.testing>div{
+    display: grid;
+    grid-template-columns: 500px 200px;
+    grid-template-rows: auto;
+    align-content: center;
+}
+.cta{
+    padding-top:50px;
+}
+.cta>a{
+    float:right;
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+;
